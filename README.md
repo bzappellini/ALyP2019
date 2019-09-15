@@ -3,8 +3,8 @@ Aspectos legales y profesionales
 
 # Ejemplo de app con docker y django
 
-*Nota: este ejemplo fue tomado des este sitio: !(https://docs.docker.com/compose/django/)
-[https://docs.docker.com/compose/django/]*
+*Nota: este ejemplo fue tomado des este sitio: [https://docs.docker.com/compose/django/]
+(https://docs.docker.com/compose/django/)*
 
 En el directorio docker-django hay tres archivo:
 * **requirements.txt:** Paquetes a instalar en la imagen docker
