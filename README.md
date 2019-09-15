@@ -12,9 +12,9 @@ En el directorio docker-django hay tres archivo:
 
 ### Primero hay que crear el proyecto django:
 
-´´´
+~~~
 sudo docker-compose run web django-admin startproject proyectoejemplo .
-´´´
+~~~
 
 ### Luego cambiar los permisos de los archivos:
 
@@ -22,13 +22,13 @@ sudo chown -R $USER:$USER .
 
 ### Conectar la base de datos
 
-En esta sección, configurará la conexión de la base de datos para Django.
+En esta sección, configurará la conexión de la base de datos para Django.  
 
 1. En el directorio de su proyecto, edite el *composeexample/settings.py* archivo.
 
 2. Reemplace el DATABASES = ... con lo siguiente:
 
-´´´
+~~~
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
@@ -38,7 +38,8 @@ DATABASES = {
         'PORT': 5432,
     }
 }
-´´´
+~~~
+
 ### Ejecutar
 
 $ docker-compose up
