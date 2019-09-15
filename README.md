@@ -24,7 +24,7 @@ sudo chown -R $USER:$USER .
 
 En esta sección, configurará la conexión de la base de datos para Django.  
 
-1. En el directorio de su proyecto, edite el *composeexample/settings.py* archivo.
+1. En el directorio de su proyecto, edite el *proyectoejemplo/settings.py* archivo.
 
 2. Reemplace el DATABASES = ... con lo siguiente:
 
